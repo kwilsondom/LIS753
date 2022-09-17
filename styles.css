@@ -1,0 +1,42 @@
+html {
+  background-color:black;
+}
+
+h1 {
+  background-color:blue;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact;
+}
+
+p{
+  background-color: ;
+  color: white;
+
+  line-height: 1.25;
+}
+figure {
+  border: 5px solid white;
+  padding:15px;
+  padding-bottom: 30px;
+}
+figure img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+figcaption{
+  color:white;
+  text-align:center;
+}
+
+p img {
+  max-width:30%;
+  float: right;
+  border: 5px solid white;
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
