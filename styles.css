@@ -17,18 +17,41 @@ html {
   opacity: 1;
 }
 
-h1 {
-  background-color:blue;
+h1#site-title {
   color: white;
+  background-color: blue;
   text-align: center;
-  font-size: 50px;
+  font-size: 72px;
   font-family: Impact;
+  letter-spacing: -3px;
+  margin-top:0;
+  margin-bottom: .125em;
+
 }
 
+h1#article-title{
+  color: white;
+  font-size: 48px;
+  font-family: Impact;
+}
+div.container{
+  margin-left:100px;
+  margin-right:100px;
+}
+div.small-container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+h2{
+  color: white;
+  font-weight: bolder;
+}
+main {
+  text-align: left;
+}
 p{
   background-color: ;
   color: white;
-
   line-height: 1.25;
 }
 figure {
@@ -36,6 +59,7 @@ figure {
   padding:15px;
   padding-bottom: 30px;
 }
+
 figure img {
   max-width: 100%;
   display: block;
@@ -43,14 +67,36 @@ figure img {
   margin-right:auto;
 
 }
+
+figure.main-image{
+  background-color: PaleVioletRed;
+  border-color:MediumVioletRed;
+}
+
+figure.section-image{
+  margin-bottom: 32px;
+  max-width: 320px;
+
+}
+figure.section-image.odd{
+  float:right;
+  margin-left: 20px;
+
+}
+figure.section-image.even{
+  float:right;
+  margin-left: 20px;
+}
 figcaption{
   color:white;
   text-align:center;
 }
 
+
+
 p img {
   max-width:30%;
-  float: right;
+  float:right;
   border: 5px solid white;
   margin-left: 20px;
   margin-bottom: 32px;
@@ -84,4 +130,20 @@ nav ul li a{
 
 nav ul li:hover a{
   background-color: MediumVioletRed;
+  text-decoration: underline;
+}
+
+article img {
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+footer{
+  background-color: MediumVioletRed;
+  text-align: center;
+}
+
+footer nav ul li:hover a{
+  text-decoration: underline;
 }
