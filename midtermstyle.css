@@ -1,0 +1,176 @@
+html {
+  background-color:#D2042D;
+}
+main {
+  color:white;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+h1#site-title {
+  font-family: Impact;
+  font-size: 72px;
+  text-align: center;
+  background-color: #76BA1B;
+}
+
+h3#location {
+  color:white;
+  text-align:center;
+  font-size: 15.5px;
+  font-family: Impact;
+}
+
+h4#hours{
+  text-transform: uppercase;
+  color:white;
+  text-align: center;
+  font-size: 15.5px;
+  font-family: Impact;
+}
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+
+
+nav ul {
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding-left: 0;
+  border-top: 5px solid #76BA1B;
+  border-bottom: 5px solid #76BA1B;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul li:hover a{
+  background-color: #76BA1B;
+  text-decoration: none;
+
+}
+img#family-image {
+  border-radius: 30%;
+  max-width: 250px;
+  padding: 0.5px 0.5px 0.5px 0.5px;
+  margin: 10px 10px 10px 10px;
+}
+figure.section-image.odd {
+  margin-left: 20px;
+  float: right;
+  border: 5px solid #76BA1B;
+  padding: 20px;
+  border-radius: 30%;
+}
+figure.section-image.even {
+  margin-right: 20px;
+  float: left;
+  border: 5px solid #76BA1B;
+  padding: 20px;
+  border-radius: 30%;
+}
+img#cider-image {
+  padding: 0.5px 0.5px 0.5px 0.5px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 30%;
+}
+figcaption{
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+h1#apples {
+  font-family: Impact;
+  text-transform: uppercase;
+  color:black;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+h1#schedule{
+  font-family: Impact;
+  text-align: center;
+  color:black;
+  font-size: 40px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #800000;
+}
+h4 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+
+p#table-fact {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+div#credits{
+  color: white;
+  font-size: 10.5px;
+}
+footer#page-footer {
+text-align: center;
+background-color: #76BA1B;
+color: black;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+th#variety-title {
+  font-size: 20px;
+  text-decoration: underline;
+}
+th#date-title {
+  font-size: 20px;
+  text-decoration: underline;
+}
