@@ -1,5 +1,7 @@
-html {
-  background-color:black;
+html body {
+    background-color: rgba(0,0,0,1.00);
+    color: white;
+
 }
 
 .skip-to-main-content-link {
@@ -34,14 +36,8 @@ h1#article-title{
   font-size: 48px;
   font-family: Impact;
 }
-div.container{
-  margin-left:100px;
-  margin-right:100px;
-}
-div.small-container {
-  margin-left: 150px;
-  margin-right: 150px;
-}
+
+
 h2{
   color: white;
   font-weight: bolder;
@@ -60,8 +56,12 @@ figure {
   padding-bottom: 30px;
 }
 
+img {
+  max-width: 100%
+  height: auto;
+}
 figure img {
-  max-width: 100%;
+
   display: block;
   margin-left: auto;
   margin-right:auto;
@@ -73,11 +73,12 @@ figure.main-image{
   border-color:MediumVioletRed;
 }
 
+@media all and (min-width:768px){
 figure.section-image{
   margin-bottom: 32px;
   max-width: 320px;
 
-}
+}}
 figure.section-image.odd{
   float:right;
   margin-left: 20px;
@@ -87,6 +88,7 @@ figure.section-image.even{
   float:right;
   margin-left: 20px;
 }
+
 figcaption{
   color:white;
   text-align:center;
@@ -104,13 +106,18 @@ p img {
 
 nav ul {
 
-  display: flex;
-  justify-content: center;
-  gap: 30px;
   list-style: none;
   padding-left: 0;
   border-top: 1px solid MediumVioletRed;
   border-bottom: 1px solid MediumVioletRed;
+}
+
+@media all and (min-width: 376px){
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 nav ul li {
